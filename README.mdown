@@ -1,10 +1,10 @@
-/*CHSwitchBox.js
+CHSwitchBox.js
 Description: An extremely simple but attractive toggle switch you can use in place of a standard input checkbox.
 Author: Collin Henderson
 Website: http://syropia.net
 Contact: collin@syropia.net
 Version: 1.0
-*/
+
 
 **What is CHSwitchBox?**
 
