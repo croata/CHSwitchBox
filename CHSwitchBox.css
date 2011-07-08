@@ -1,0 +1,19 @@
+div.switch {
+	display:inline-block;
+	width: 109px;
+	height: 36px;
+	background: url(images/switch_track.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin: 10px 0;
+}
+div.switch > div.thumb {
+	position: relative;
+	display: inline-block;
+	width: 51px;
+	height: 31px;
+	background: url(images/switch_thumb.png);
+	background-repeat: no-repeat;
+	top: 3px;
+	left: 3px;
+}

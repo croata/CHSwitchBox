@@ -1,0 +1,29 @@
+/*CHSwitchBox.js
+Description: An extremely simple but attractive toggle switch you can use in place of a standard input checkbox.
+Author: Collin Henderson
+Website: http://syropia.net
+Contact: collin@syropia.net
+Version: 1.0
+*/
+
+**What is CHSwitchBox?**
+
+CHSwitchBox is a simple & attractive drop-in replacement for a standard html input checkbox.
+
+**Neat! How do I use it?**
+
+1. Be sure to include the Jquery library, as well as the CHSwitchBox javascript, and css file in your <head> tag. Make sure you load Jquery _before_ you load CHSwitchBox.
+2. Now you must initialize the plugin. Either apply it to all checkboxes with a certain class: `$('input.toggleSwitch').CHSwitchBox();`
+
+A checkbox with a unique ID: `$('input#loneStar').CHSwitchBox();`
+
+Or if you want to apply it to every single checkbox simply use: `$('input[type=checkbox]').CHSwitchBox();` as seen on the demo page.
+
+That's it! Easy peazy.
+
+**I can't see my original checkboxes anymore. How is the value going to be stored?**
+
+Fear not, your checkboxes are just hidden, and the switch box is controlling their state. All values will be captured, just like using a regular checkbox.
+
+**I wanna use my own images!**
+What, you don't like mine? Rude. If you have some knowledge of CSS, you can modify the images to your little heart's content. Remember to change the animation values in the JS plugin file as well.	 
