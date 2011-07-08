@@ -31,4 +31,5 @@ That's it! Easy peazy.
 Fear not, your checkboxes are just hidden, and the switch box is controlling their state. All values will be captured, just like using a regular checkbox.
 
 **I wanna use my own images!**
+
 What, you don't like mine? Rude. If you have some knowledge of CSS, you can modify the images to your little heart's content. Remember to change the animation values in the JS plugin file as well.	 
