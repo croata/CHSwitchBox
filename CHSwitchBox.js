@@ -15,13 +15,13 @@ Version: 1.0
 
             //Iterate over the current set of matched elements
             return this.each(function() {
-                var $markup = $('<div class="switch"><div class="thumb"></div></div>');
+                var $markup = $('<div class="switch"><span class="green">On</span><span class="red">Off</span><div class="thumb"></div></div>');
                 $markup.insertAfter($(this));
                 $(this).hide();
                 $('div.switch').toggle(function()
                 {
                     $(this).children('div.thumb').animate({
-                        left: 54
+                        left: 26
                     },
                     300);
                     $(this).prev('input').attr('checked', true);
@@ -30,7 +30,7 @@ Version: 1.0
                 function()
                 {
                     $(this).children('div.thumb').animate({
-                        left: 3
+                        left: -27
                     },
                     300);
                     $(this).prev('input').attr('checked', false);
