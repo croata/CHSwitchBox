@@ -3,7 +3,7 @@ Description: An extremely simple but attractive toggle switch you can use in pla
 Author: Collin Henderson
 Website: http://syropia.net
 Contact: collin@syropia.net
-Version: 1.0
+Version: 1.1
 */
  (function($) {
 
