@@ -3,7 +3,7 @@ Description: An extremely simple but attractive toggle switch you can use in pla
 Author: Collin Henderson
 Website: http://syropia.net
 Contact: collin@syropia.net
-Version: 1.2
+Version: 1.3
 */
  (function($) {
 
@@ -11,11 +11,17 @@ Version: 1.2
     $.fn.extend({
 
 
-        CHSwitchBox: function() {
-
+        CHSwitchBox: function(options) {
+	
+			//Set up defaults
+			var defaults = { 
+				onLabel:      'On', 
+				offLabel:     'Off' 
+			};
+			var options = $.extend({}, defaults, options)
             //Iterate over the current set of matched elements
             return this.each(function() {
-                var $markup = $('<div class="switch"><span class="green">On</span><span class="red">Off</span><div class="thumb"></div></div>');
+                var $markup = $('<div class="switch"><span class="green">'+options.onLabel+'</span><span class="red">'+options.offLabel+'</span><div class="thumb"></div></div>');
                 $markup.insertAfter($(this));
                 $(this).hide();
 

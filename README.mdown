@@ -8,7 +8,7 @@ Website: http://syropia.net
 
 Contact: collin@syropia.net
 
-Version: 1.2
+Version: 1.3
 
 
 **What is CHSwitchBox?**
@@ -25,6 +25,9 @@ A checkbox with a unique ID: `$('input#loneStar').CHSwitchBox();`
 Or if you want to apply it to every single checkbox simply use: `$('input[type=checkbox]').CHSwitchBox();` as seen on the demo page.
 
 That's it! Easy peazy.
+
+**Great! What if I want custom labels for the on/off state?**
+Simply pass these 2 variables in the init line like so `$('input[type=checkbox]').CHSwitchBox({onLabel : 'Yep', offLabel : 'Nope'});`
 
 **I can't see my original checkboxes anymore. How is the value going to be stored?**
 
