@@ -8,7 +8,7 @@ Website: http://syropia.net
 
 Contact: collin@syropia.net
 
-Version: 1.0
+Version: 1.1
 
 
 **What is CHSwitchBox?**
